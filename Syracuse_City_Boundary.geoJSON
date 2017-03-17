@@ -1,0 +1,289 @@
+{
+  "currentVersion" : 10.41, 
+  "id" : 0, 
+  "name" : "Syracuse_City_Boundary", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "b245680d128b4b61a59c2ed118b121ac", 
+  "displayField" : "", 
+  "description" : "", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : null
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "supportsCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryProperties" : true
+  }, 
+  "useStandardizedQueries" : false, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -8483077.53372188, 
+    "ymin" : 5309527.9713272322, 
+    "xmax" : -8468428.8792265523, 
+    "ymax" : 5325217.0290802969, 
+    "spatialReference" : {
+      "wkid" : 102100, 
+      "latestWkid" : 3857
+    }
+  }, 
+  "drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[76,129,205,191],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,255],"width":0.75}}},"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeNone", 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "FID", 
+  "globalIdField" : "", 
+  "typeIdField" : "", 
+  "fields" : [
+    {
+      "name" : "FID", 
+      "type" : "esriFieldTypeInteger", 
+      "actualType" : "int", 
+      "alias" : "FID", 
+      "sqlType" : "sqlTypeInteger", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FID_Syracu", 
+      "type" : "esriFieldTypeInteger", 
+      "actualType" : "int", 
+      "alias" : "FID_Syracu", 
+      "sqlType" : "sqlTypeInteger", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "STATEFP10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "STATEFP10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 2, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTYFP10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "COUNTYFP10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 3, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TRACTCE10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "TRACTCE10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 6, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GEOID10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "GEOID10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 11, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NAME10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "NAME10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 7, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NAMELSAD10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "NAMELSAD10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MTFCC10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "MTFCC10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 5, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FUNCSTAT10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "FUNCSTAT10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 1, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ALAND10", 
+      "type" : "esriFieldTypeDouble", 
+      "actualType" : "float", 
+      "alias" : "ALAND10", 
+      "sqlType" : "sqlTypeFloat", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "AWATER10", 
+      "type" : "esriFieldTypeDouble", 
+      "actualType" : "float", 
+      "alias" : "AWATER10", 
+      "sqlType" : "sqlTypeFloat", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INTPTLAT10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "INTPTLAT10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 11, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INTPTLON10", 
+      "type" : "esriFieldTypeString", 
+      "actualType" : "nvarchar", 
+      "alias" : "INTPTLON10", 
+      "sqlType" : "sqlTypeNVarchar", 
+      "length" : 12, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TractID", 
+      "type" : "esriFieldTypeSingle", 
+      "actualType" : "real", 
+      "alias" : "TractID", 
+      "sqlType" : "sqlTypeReal", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__Syracuse__C1BEA5A254919F00", 
+      "fields" : "FID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "clustered, unique, primary key"
+    }, 
+    {
+      "name" : "user_2386.Syracuse_City_Boundary_Syracuse_City_Boundary_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : false, 
+      "isUnique" : false, 
+      "description" : "Shape Index"
+    }
+  ], 
+  "types" : [], 
+  "templates" : [
+    {
+      "name" : "New Feature", 
+      "description" : "", 
+      "drawingTool" : "esriFeatureEditToolPolygon", 
+      "prototype" : {
+        "attributes" : {
+          "FID_Syracu" : null, 
+          "STATEFP10" : null, 
+          "COUNTYFP10" : null, 
+          "TRACTCE10" : null, 
+          "GEOID10" : null, 
+          "NAME10" : null, 
+          "NAMELSAD10" : null, 
+          "MTFCC10" : null, 
+          "FUNCSTAT10" : null, 
+          "ALAND10" : null, 
+          "AWATER10" : null, 
+          "INTPTLAT10" : null, 
+          "INTPTLON10" : null, 
+          "TractID" : null
+        }
+      }
+    }
+  ], 
+  "supportedQueryFormats" : "JSON, geoJSON", 
+  "hasStaticData" : true, 
+  "maxRecordCount" : 2000, 
+  "standardMaxRecordCount" : 4000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query"
+}
